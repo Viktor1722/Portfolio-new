@@ -17,9 +17,9 @@ export default function Home() {
           <hr className="border-t border-gray-600 my-2"></hr>
           <section id="about" className="my-10 ">
             <p>
-              I'm Viktor, a 21-year-old student at Fontys ICT Eindhoven,
+              Im Viktor, a 21-year-old student at Fontys ICT Eindhoven,
               specializing in Media and Design. As an ambitious front-end
-              developer with a strong design sensibility, I'm committed to
+              developer with a strong design sensibility, Im committed to
               learning and growing in the field. Known for excellent time
               management, I prioritize work effectively.
             </p>

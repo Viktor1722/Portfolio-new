@@ -5,7 +5,6 @@ import ParticlesBackground from "./ParticlesBackground";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4 bg-navy-blue ">
-      <ParticlesBackground />
       <div className="z-5 mx-auto z-0">
         <div className="container mx-auto m-20">
           <header className="max-w-screen-sm o">
@@ -68,6 +67,7 @@ export default function Home() {
           </section>
         </div>
       </div>
+      <ParticlesBackground />
     </main>
   );
 }

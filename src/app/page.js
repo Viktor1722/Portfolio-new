@@ -185,7 +185,83 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-start three-d-text">
               Contact
             </h2>
+
+            <ul className="list-inside">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/viktor-velizarov-632ab1243/"
+                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                >
+                  Linkedin
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:viktorvelizarov17@gmail.com"
+                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                >
+                  Email
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/v1ktor_v"
+                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                >
+                  Telegram
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </section>
+          <br />
+          <hr className="border-t border-gray-600 my-2"></hr>
+
+          <footer className="text-slate-500 text-center mt-4">
+            <p>Viktor Velizarov</p>
+            <p>© 2024</p>
+          </footer>
         </div>
       </div>
       <ParticlesBackground />

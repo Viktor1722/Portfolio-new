@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import ParticlesBackground from "./ParticlesBackground";
+import GitHub from "../../public/fonts/Github-Dark.svg";
 
 export default function Home() {
   return (
@@ -11,17 +12,17 @@ export default function Home() {
             <h1 className="text-5xl font-bold three-d-text">
               Viktor <span className="text-sky-500">Velizarov</span>
             </h1>
-            <p className="text-sm mt-5">Software Mobile & UX/UI designer</p>
+            <p className="text-sm mt-5">Software developer & UX/UI designer</p>
           </header>
           <br />
           <hr className="border-t border-gray-600 my-2"></hr>
           <section id="about" className="my-10 ">
             <p>
-              Im Viktor, a 21-year-old student at Fontys ICT Eindhoven,
+              Im Viktor, a 22-year-old student at Fontys ICT Eindhoven,
               specializing in Media and Design. As an ambitious front-end
-              developer with a strong design sensibility, Im committed to
-              learning and growing in the field. Known for excellent time
-              management, I prioritize work effectively.
+              developer with a strong design sensibility, I commit to learning
+              and growing in the field. Known for excellent time management, I
+              prioritize work effectively.
             </p>
           </section>
 
@@ -36,6 +37,9 @@ export default function Home() {
               </span>
               <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
                 Node.js
+              </span>{" "}
+              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
+                Next.js
               </span>{" "}
               <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
                 React.js
@@ -63,7 +67,27 @@ export default function Home() {
           <hr className="border-t border-gray-600 my-2"></hr>
 
           <section id="projects" className="my-10">
-            <div></div>
+            <h2 className="text-2xl font-bold text-start three-d-text">
+              Latest <span className="text-sky-500">Projects</span>
+            </h2>
+            <div className="flex flex-wrap flex-row mt-4 gap-4 cursor-pointer">
+              <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 ">
+                <div>
+                  <span>Voice Over Generator</span>
+                  <p className="text-sm mt-2 text-slate-500">
+                    Web Development project
+                  </p>
+                </div>
+                <a>
+                  <Image
+                    src={GitHub}
+                    width={50}
+                    height={50}
+                    alt="git hub icon"
+                  />
+                </a>
+              </div>
+            </div>
           </section>
         </div>
       </div>

@@ -1,6 +1,16 @@
 "use client";
 import Image from "next/image";
 import ParticlesBackground from "./ParticlesBackground";
+import Nextjs from "./image/NextJS-Dark.svg";
+import JavaScript from "./image/JavaScript.svg";
+import Node from "./image/NodeJS-Dark.svg";
+import React from "./image/React-Dark.svg";
+import Swift from "./image/Swift.svg";
+import Kotlin from "./image/Kotlin-Dark.svg";
+import PWA from "./image/PWA.svg";
+import Figma from "./image/Figma-Dark.svg";
+import Angular from "./image/Angular-Dark.svg";
+import Photoshop from "./image/Photoshop.svg";
 
 export default function Home() {
   return (
@@ -13,8 +23,10 @@ export default function Home() {
             </h1>
             <p className="text-sm mt-5 ">Software developer & UX/UI designer</p>
           </header>
+
           <br />
           <hr className="border-t border-gray-600 my-2"></hr>
+
           <section id="about" className="my-10 ">
             <p>
               Im, a 22-year-old Software Engineer currently pursuing a bachelor
@@ -31,51 +43,72 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-start three-d-text">
               Skills
             </h2>
-            <div className="flex flex-wrap flex-row mt-4 gap-4">
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                JavaScript
-              </span>
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Node.js
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Next.js
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                React.js
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Swift
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Kotlin
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                PWA
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Figma
-              </span>{" "}
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Vue/Nuxt
-              </span>
-              <span className="text-slate-500 rounded border px-4 py-2 border-slate-500">
-                Adobe Photoshop
-              </span>
+            <div className="flex flex-wrap flex-row mt-4 gap-9">
+              <Image
+                src={JavaScript}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image src={Node} alt="" width={50} className="grayscale-[80%]" />{" "}
+              <Image
+                src={Nextjs}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image
+                src={React}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image
+                src={Swift}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image
+                src={Kotlin}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image src={PWA} alt="" width={50} className="grayscale-[50%]" />{" "}
+              <Image
+                src={Figma}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image
+                src={Angular}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
+              <Image
+                src={Photoshop}
+                alt=""
+                width={50}
+                className="grayscale-[80%]"
+              />{" "}
             </div>
           </section>
+
           <hr className="border-t border-gray-600 my-2"></hr>
 
           <section id="projects" className="my-10">
             <h2 className="text-2xl font-bold text-start three-d-text">
-              Latest <span className="text-sky-500">Projects</span>
+              Latest Projects
             </h2>
             <div className="flex flex-wrap flex-row mt-4 gap-4 cursor-pointer">
               <a href="https://github.com/Viktor1722">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Voice Over Generator</span>
-                    <p className="text-sm mt-2 text-slate-500">
+                    <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
                   </div>
@@ -102,7 +135,7 @@ export default function Home() {
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Court Vision</span>
-                    <p className="text-sm mt-2 text-slate-500">
+                    <p className="text-sm mt-2 text-slate-300">
                       Mobile Development project
                     </p>
                   </div>
@@ -129,7 +162,7 @@ export default function Home() {
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Student Corner</span>
-                    <p className="text-sm mt-2 text-slate-500">
+                    <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
                   </div>
@@ -156,7 +189,7 @@ export default function Home() {
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Honorsteine</span>
-                    <p className="text-sm mt-2 text-slate-500">
+                    <p className="text-sm mt-2 text-slate-300">
                       Mobile Development project
                     </p>
                   </div>
@@ -180,8 +213,37 @@ export default function Home() {
               </a>
             </div>
           </section>
+
           <hr className="border-t border-gray-600 my-2"></hr>
           <br />
+
+          <section id="work experience">
+            <h2 className="text-2xl font-bold text-start three-d-text">
+              Work Experience
+            </h2>
+
+            <div className="flex items-center space-x-4	m-4 p-5 border border-slate-500 rounded-lg">
+              <h2 className="text-xl">Cape</h2>
+
+              <div className="pl-5">
+                <h3 class="text-x font-semibold">Fullstack Developer</h3>
+                <p className="text-sm text-slate-300">
+                  September 23 - February 24
+                </p>
+
+                <p className="mt-4">
+                  I was part of their Ai development team as an Intern. My main
+                  task was to integrate different Ai models in their system in
+                  order to increase productivity{" "}
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <br />
+          <hr className="border-t border-gray-600 my-2"></hr>
+          <br />
+
           <section id="connect">
             <h2 className="text-2xl font-bold text-start three-d-text">
               Contact
@@ -191,7 +253,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://www.linkedin.com/in/viktor-velizarov-632ab1243/"
-                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                  className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
                 >
                   Linkedin
                   <svg
@@ -213,7 +275,7 @@ export default function Home() {
               <li>
                 <a
                   href="mailto:viktorvelizarov17@gmail.com"
-                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                  className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
                 >
                   Email
                   <svg
@@ -235,7 +297,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://t.me/v1ktor_v"
-                  className="flex items-center gap-2 font-bold underline text-slate-500 hover:text-sky-500 mt-2"
+                  className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
                 >
                   Telegram
                   <svg
@@ -259,7 +321,7 @@ export default function Home() {
           <br />
           <hr className="border-t border-gray-600 my-2"></hr>
 
-          <footer className="text-slate-500 text-center mt-4">
+          <footer className="text-slate-300 text-center mt-4">
             <p>Viktor Velizarov</p>
             <p>© 2024</p>
           </footer>

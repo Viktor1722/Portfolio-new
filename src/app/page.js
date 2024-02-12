@@ -11,17 +11,18 @@ export default function Home() {
             <h1 className="text-5xl font-bold three-d-text">
               Viktor <span className="text-sky-500">Velizarov</span>
             </h1>
-            <p className="text-sm mt-5">Software developer & UX/UI designer</p>
+            <p className="text-sm mt-5 ">Software developer & UX/UI designer</p>
           </header>
           <br />
           <hr className="border-t border-gray-600 my-2"></hr>
           <section id="about" className="my-10 ">
             <p>
-              Im Viktor, a 22-year-old student at Fontys ICT Eindhoven,
-              specializing in Media and Design. As an ambitious front-end
-              developer with a strong design sensibility, I commit to learning
-              and growing in the field. Known for excellent time management, I
-              prioritize work effectively.
+              Im, a 22-year-old Software Engineer currently pursuing a bachelor
+              degree in Fontys ICT Eindhoven .I specialize in making of Web
+              apps, mobile apps and UX Design. As an ambitious Software Engineer
+              i love building rapid and scalable products with strong design
+              sensibility. Furthermore I have for excellent time management, by
+              prioritizing work effectively.
             </p>
           </section>
 
@@ -97,7 +98,7 @@ export default function Home() {
                 </div>
               </a>
 
-              <a href="https://github.com/Viktor1722">
+              <a href="https://github.com/Viktor1722/IOS-Basketball-coaching-app-">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Court Vision</span>
@@ -124,7 +125,7 @@ export default function Home() {
                 </div>
               </a>
 
-              <a href="https://github.com/Viktor1722">
+              <a href="https://github.com/Viktor1722/Student-Corner-">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Student Corner</span>
@@ -151,7 +152,7 @@ export default function Home() {
                 </div>
               </a>
 
-              <a href="https://github.com/Viktor1722">
+              <a href="https://github.com/xXManntXx/honorsteine/tree/iOs_app?tab=readme-ov-file">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Honorsteine</span>

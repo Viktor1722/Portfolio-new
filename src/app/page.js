@@ -29,14 +29,14 @@ export default function Home() {
 
           <section id="about" className="my-10 ">
             <p className="max-w-5xl">
-              {"I'am"} a 22-year-old Software Engineer currently pursuing a
-              Bachelor's degree in ICT at Fontys University of Applied Sciences
-              in Eindhoven. I specialize in developing web and mobile
-              applications, with a keen focus on UX Design. As an ambitious
-              Software Engineer, I am passionate about building rapid and
-              scalable products that combine robust functionality with a strong
-              design sensibility. Moreover, I excel in time management through
-              effective work prioritization.
+              Im 22-year-old Software Engineer currently pursuing a Bachelor's
+              degree in ICT at Fontys University of Applied Sciences in
+              Eindhoven. I specialize in developing web and mobile applications,
+              with a keen focus on UX Design. As an ambitious Software Engineer,
+              I am passionate about building rapid and scalable products that
+              combine robust functionality with a strong design sensibility.
+              Moreover, I excel in time management through effective work
+              prioritization.
             </p>
           </section>
 

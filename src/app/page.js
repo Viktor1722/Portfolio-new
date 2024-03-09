@@ -11,6 +11,9 @@ import PWA from "./image/PWA.svg";
 import Figma from "./image/Figma-Dark.svg";
 import Angular from "./image/Angular-Dark.svg";
 import Photoshop from "./image/Photoshop.svg";
+import Firebase from "./image/Firebase-Dark.svg";
+import Vue from "./image/Vue.svg";
+import Svelte from "./image/Svelte.svg";
 
 export default function Home() {
   return (
@@ -46,56 +49,19 @@ export default function Home() {
               Skills
             </h2>
             <div className="flex flex-wrap flex-row mt-4 gap-9">
-              <Image
-                src={JavaScript}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image src={Node} alt="" width={50} className="grayscale-[80%]" />{" "}
-              <Image
-                src={Nextjs}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image
-                src={React}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image
-                src={Swift}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image
-                src={Kotlin}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image src={PWA} alt="" width={50} className="grayscale-[50%]" />{" "}
-              <Image
-                src={Figma}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image
-                src={Angular}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
-              <Image
-                src={Photoshop}
-                alt=""
-                width={50}
-                className="grayscale-[80%]"
-              />{" "}
+              <Image src={JavaScript} alt="" width={50} />{" "}
+              <Image src={Node} alt="" width={50} />{" "}
+              <Image src={Nextjs} alt="" width={50} />{" "}
+              <Image src={React} alt="" width={50} />{" "}
+              <Image src={Swift} alt="" width={50} />{" "}
+              <Image src={Kotlin} alt="" width={50} />{" "}
+              <Image src={PWA} alt="" width={50} />{" "}
+              <Image src={Figma} alt="" width={50} />{" "}
+              <Image src={Angular} alt="" width={50} />{" "}
+              <Image src={Photoshop} alt="" width={50} />{" "}
+              <Image src={Firebase} alt="" width={50} />{" "}
+              <Image src={Vue} alt="" width={50} />{" "}
+              <Image src={Svelte} alt="" width={50} />{" "}
             </div>
           </section>
 
@@ -251,7 +217,7 @@ export default function Home() {
               Work Experience
             </h2>
 
-            <div className="flex items-center space-x-4	m-4 p-5 border border-slate-500 rounded-lg">
+            <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
               <h2 className="text-xl">Cape</h2>
 
               <div className="pl-5">
@@ -278,7 +244,7 @@ export default function Home() {
               Contact
             </h2>
 
-            <ul className="list-inside">
+            <ul className="list-inside flex gap-9 mt-5">
               <li>
                 <a
                   href="https://www.linkedin.com/in/viktor-velizarov-632ab1243/"
@@ -329,6 +295,28 @@ export default function Home() {
                   className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
                 >
                   Telegram
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Viktor1722"
+                  className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
+                >
+                  GitHub
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

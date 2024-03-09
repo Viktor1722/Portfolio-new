@@ -244,7 +244,7 @@ export default function Home() {
               Contact
             </h2>
 
-            <ul className="list-inside flex gap-9 mt-5">
+            <ul className="list-inside ">
               <li>
                 <a
                   href="https://www.linkedin.com/in/viktor-velizarov-632ab1243/"

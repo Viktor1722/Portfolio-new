@@ -269,7 +269,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="mailto:viktorvelizarov17@gmail.com"
+                  href="velizarovvictor@gmail.com"
                   className="flex items-center gap-2 font-bold underline text-slate-300 hover:text-sky-500 mt-2"
                 >
                   Email

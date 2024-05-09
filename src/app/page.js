@@ -7,13 +7,12 @@ import Node from "./image/NodeJS-Dark.svg";
 import React from "./image/React-Dark.svg";
 import Swift from "./image/Swift.svg";
 import Kotlin from "./image/Kotlin-Dark.svg";
-import PWA from "./image/PWA.svg";
+import Supabase from "./image/supabase.svg";
 import Figma from "./image/Figma-Dark.svg";
 import Angular from "./image/Angular-Dark.svg";
 import Photoshop from "./image/Photoshop.svg";
 import Firebase from "./image/Firebase-Dark.svg";
 import Vue from "./image/Vue.svg";
-import Svelte from "./image/Svelte.svg";
 
 export default function Home() {
   return (
@@ -55,13 +54,12 @@ export default function Home() {
               <Image src={React} alt="" width={50} />{" "}
               <Image src={Swift} alt="" width={50} />{" "}
               <Image src={Kotlin} alt="" width={50} />{" "}
-              <Image src={PWA} alt="" width={50} />{" "}
+              <Image src={Supabase} alt="" width={50} />{" "}
               <Image src={Figma} alt="" width={50} />{" "}
               <Image src={Angular} alt="" width={50} />{" "}
               <Image src={Photoshop} alt="" width={50} />{" "}
               <Image src={Firebase} alt="" width={50} />{" "}
               <Image src={Vue} alt="" width={50} />{" "}
-              <Image src={Svelte} alt="" width={50} />{" "}
             </div>
           </section>
 
@@ -103,6 +101,33 @@ export default function Home() {
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
                     <span>Ai assistant</span>
+                    <p className="text-sm mt-2 text-slate-300">
+                      Web Development project
+                    </p>
+                  </div>
+                  <div className="border border-slate-500 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-4 w-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://github.com/Viktor1722/LuckyCoffee">
+                <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
+                  <div className="mr-10">
+                    <span>Mystic Mocha</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>

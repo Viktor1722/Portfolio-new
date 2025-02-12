@@ -13,6 +13,8 @@ import Angular from "./image/Angular-Dark.svg";
 import Photoshop from "./image/Photoshop.svg";
 import Firebase from "./image/Firebase-Dark.svg";
 import Vue from "./image/Vue.svg";
+import Cape from "./image/Cape.svg";
+import Microlab from "./image/Microlab.svg";
 
 export default function Home() {
   return (
@@ -31,7 +33,7 @@ export default function Home() {
 
           <section id="about" className="my-10 ">
             <p className="max-w-5xl">
-              I&apos;am a 22-year-old Software Engineer currently pursuing a
+              I&apos;am a 23-year-old Software Engineer currently pursuing a
               Bachelor&apos;s degree in ICT at Fontys University of Applied
               Sciences in Eindhoven. I specialize in developing web and mobile
               applications&apos; with a keen focus on UX Design. As an ambitious
@@ -243,8 +245,7 @@ export default function Home() {
             </h2>
 
             <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
-              <h2 className="text-xl">Cape</h2>
-
+              <Image src={Cape} alt="" width={90} />{" "}
               <div className="pl-5">
                 <h3 class="text-x font-semibold">Fullstack Developer</h3>
                 <p className="text-sm text-slate-300">
@@ -255,6 +256,20 @@ export default function Home() {
                   I was part of their Ai development team as an Intern. My main
                   task was to integrate different Ai models in their system in
                   order to increase productivity{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
+              <Image src={Microlab} alt="" width={90} />{" "}
+              <div className="pl-5">
+                <h3 class="text-x font-semibold">Software Developer</h3>
+                <p className="text-sm text-slate-300">August 1st - Present</p>
+
+                <p className="mt-4">
+                  I am working on a software solutions that simplify the working
+                  proccess and practices for managing and maintaining large
+                  office buildings{" "}
                 </p>
               </div>
             </div>

@@ -268,7 +268,7 @@ export default function Home() {
 
                 <p className="mt-4">
                   I am working on a software solutions that simplify the working
-                  proccess and practices for managing and maintaining large
+                  process and practices for managing and maintaining large
                   office buildings{" "}
                 </p>
               </div>

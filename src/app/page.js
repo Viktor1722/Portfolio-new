@@ -15,8 +15,8 @@ import Firebase from "./image/Firebase-Dark.svg";
 import Vue from "./image/Vue.svg";
 import Cape from "./image/Cape.svg";
 import Microlab from "./image/Microlab.svg";
-import TypeScript from "./image/TypeScript.svg";
-import MongoDB from "./image/MongoDB.svg";
+import TypeScript from "./image/typeScript.svg";
+import MongoDB from "./image/mongoDB.svg";
 
 export default function Home() {
   return (

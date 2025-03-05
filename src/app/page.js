@@ -15,6 +15,8 @@ import Firebase from "./image/Firebase-Dark.svg";
 import Vue from "./image/Vue.svg";
 import Cape from "./image/Cape.svg";
 import Microlab from "./image/Microlab.svg";
+import TypeScript from "./image/TypeScript.svg";
+import MongoDB from "./image/MongoDB.svg";
 
 export default function Home() {
   return (
@@ -25,7 +27,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold three-d-text">
               Viktor <span className="text-sky-500">Velizarov</span>
             </h1>
-            <p className="text-sm mt-5 ">Software developer & UX/UI designer</p>
+            <p className="text-sm mt-5 ">Software developer</p>
           </header>
 
           <br />
@@ -37,10 +39,9 @@ export default function Home() {
               Bachelor&apos;s degree in ICT at Fontys University of Applied
               Sciences in Eindhoven. I specialize in developing web and mobile
               applications&apos; with a keen focus on UX Design. As an ambitious
-              Software Engineer&apos; I&apos;am passionate about building rapid
-              and scalable products that combine robust functionality with a
-              strong design sensibility. Moreover&apos; I excel in time
-              management through effective work prioritization.
+              Software Engineer. I&apos;am passionate about building rapid and
+              scalable products that combine robust functionality with a strong
+              design sensibility.
             </p>
           </section>
 
@@ -62,6 +63,8 @@ export default function Home() {
               <Image src={Photoshop} alt="" width={50} />{" "}
               <Image src={Firebase} alt="" width={50} />{" "}
               <Image src={Vue} alt="" width={50} />{" "}
+              <Image src={TypeScript} alt="" width={50} />{" "}
+              <Image src={MongoDB} alt="" width={50} />{" "}
             </div>
           </section>
 
@@ -233,6 +236,60 @@ export default function Home() {
                   </div>
                 </div>
               </a>
+
+              <a href="https://github.com/Viktor1722/Mrr-drones">
+                <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
+                  <div className="mr-10">
+                    <span>Mrr drones</span>
+                    <p className="text-sm mt-2 text-slate-300">
+                      Web development project
+                    </p>
+                  </div>
+                  <div className="border border-slate-500 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-4 w-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://github.com/Viktor1722/F1webapp">
+                <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
+                  <div className="mr-10">
+                    <span>F1 data app</span>
+                    <p className="text-sm mt-2 text-slate-300">
+                      Web development project
+                    </p>
+                  </div>
+                  <div className="border border-slate-500 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-4 w-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
             </div>
           </section>
 
@@ -380,7 +437,7 @@ export default function Home() {
 
           <footer className="text-slate-300 text-center mt-4">
             <p>Viktor Velizarov</p>
-            <p>© 2024</p>
+            <p>© 2025</p>
           </footer>
         </div>
       </div>

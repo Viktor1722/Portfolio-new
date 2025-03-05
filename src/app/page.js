@@ -15,8 +15,6 @@ import Firebase from "./image/Firebase-Dark.svg";
 import Vue from "./image/Vue.svg";
 import Cape from "./image/Cape.svg";
 import Microlab from "./image/Microlab.svg";
-import TypeScript from "./image/TypeScript.svg";
-import MongoDB from "./image/MongoDB.svg";
 
 export default function Home() {
   return (
@@ -63,8 +61,6 @@ export default function Home() {
               <Image src={Photoshop} alt="" width={50} />{" "}
               <Image src={Firebase} alt="" width={50} />{" "}
               <Image src={Vue} alt="" width={50} />{" "}
-              <Image src={TypeScript} alt="" width={50} />{" "}
-              <Image src={MongoDB} alt="" width={50} />{" "}
             </div>
           </section>
 

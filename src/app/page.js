@@ -24,17 +24,17 @@ export default function Home() {
       <div className="z-5 mx-auto z-0">
         <div className="container mx-auto m-20">
           <header className="max-w-screen-sm o">
-            <h1 className="text-5xl font-bold three-d-text">
+            <h1 className="text-5xl font-bold three-d-text text-white">
               Viktor <span className="text-sky-500">Velizarov</span>
             </h1>
-            <p className="text-sm mt-5 ">Software developer</p>
+            <p className="text-sm mt-5 text-white">Software developer</p>
           </header>
 
           <br />
           <hr className="border-t border-gray-600 my-2"></hr>
 
           <section id="about" className="my-10 ">
-            <p className="max-w-5xl">
+            <p className="max-w-5xl text-white">
               I&apos;am a 23-year-old Software Engineer currently pursuing a
               Bachelor&apos;s degree in ICT at Fontys University of Applied
               Sciences in Eindhoven. I specialize in developing web and mobile
@@ -47,7 +47,7 @@ export default function Home() {
 
           <hr className="border-t border-gray-600 my-2"></hr>
           <section id="skills" className="my-10">
-            <h2 className="text-2xl font-bold text-start three-d-text">
+            <h2 className="text-2xl font-bold text-start three-d-text text-white">
               Skills
             </h2>
             <div className="flex flex-wrap flex-row mt-4 gap-9">
@@ -71,14 +71,14 @@ export default function Home() {
           <hr className="border-t border-gray-600 my-2"></hr>
 
           <section id="projects" className="my-10">
-            <h2 className="text-2xl font-bold text-start three-d-text">
+            <h2 className="text-2xl font-bold text-start three-d-text text-white">
               Latest Projects
             </h2>
             <div className="flex flex-wrap flex-row mt-4 gap-4 cursor-pointer">
               <a href="https://github.com/Viktor1722/Voice-Over-Generator">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Voice Over Generator</span>
+                    <span className="text-white">Voice Over Generator</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
@@ -93,6 +93,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -105,7 +106,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/Ai-assistant">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Ai assistant</span>
+                    <span className="text-white">Ai assistant</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
@@ -120,6 +121,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -132,7 +134,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/LuckyCoffee">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Mystic Mocha</span>
+                    <span className="text-white">Mystic Mocha</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
@@ -147,6 +149,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -159,7 +162,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/IOS-Basketball-coaching-app-">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Court Vision</span>
+                    <span className="text-white">Court Vision</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Mobile Development project
                     </p>
@@ -174,6 +177,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -186,7 +190,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/Student-Corner-">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Student Corner</span>
+                    <span className="text-white">Student Corner</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web Development project
                     </p>
@@ -201,6 +205,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -213,7 +218,7 @@ export default function Home() {
               <a href="https://github.com/xXManntXx/honorsteine/tree/iOs_app?tab=readme-ov-file">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Honorsteine</span>
+                    <span className="text-white">Honorsteine</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Mobile Development project
                     </p>
@@ -228,6 +233,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -240,7 +246,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/Mrr-drones">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>Mrr drones</span>
+                    <span className="text-white">Mrr drones</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web development project
                     </p>
@@ -255,6 +261,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -267,7 +274,7 @@ export default function Home() {
               <a href="https://github.com/Viktor1722/F1webapp">
                 <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
                   <div className="mr-10">
-                    <span>F1 data app</span>
+                    <span className="text-white">F1 data app</span>
                     <p className="text-sm mt-2 text-slate-300">
                       Web development project
                     </p>
@@ -282,6 +289,7 @@ export default function Home() {
                       class="h-4 w-4"
                     >
                       <path
+                        className="text-white"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
@@ -297,19 +305,21 @@ export default function Home() {
           <br />
 
           <section id="work experience">
-            <h2 className="text-2xl font-bold text-start three-d-text">
+            <h2 className="text-2xl font-bold text-start three-d-text text-white">
               Work Experience
             </h2>
 
             <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
               <Image src={Cape} alt="" width={90} />{" "}
               <div className="pl-5">
-                <h3 class="text-x font-semibold">Fullstack Developer</h3>
+                <h3 class="text-x font-semibold text-white">
+                  Fullstack Developer
+                </h3>
                 <p className="text-sm text-slate-300">
                   September 23 - February 24
                 </p>
 
-                <p className="mt-4">
+                <p className="mt-4 text-white">
                   I was part of their Ai development team as an Intern. My main
                   task was to integrate different Ai models in their system in
                   order to increase productivity{" "}
@@ -320,10 +330,12 @@ export default function Home() {
             <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
               <Image src={Microlab} alt="" width={90} />{" "}
               <div className="pl-5">
-                <h3 class="text-x font-semibold">Software Developer</h3>
+                <h3 class="text-x font-semibold text-white">
+                  Software Developer
+                </h3>
                 <p className="text-sm text-slate-300">August 1st - Present</p>
 
-                <p className="mt-4">
+                <p className="mt-4 text-white">
                   I am working on a software solutions that simplify the working
                   process and practices for managing and maintaining large
                   office buildings{" "}
@@ -337,7 +349,7 @@ export default function Home() {
           <br />
 
           <section id="connect">
-            <h2 className="text-2xl font-bold text-start three-d-text">
+            <h2 className="text-2xl font-bold text-start three-d-text text-white">
               Contact
             </h2>
 

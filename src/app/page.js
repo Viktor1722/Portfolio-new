@@ -379,9 +379,9 @@ export default function Home() {
 
                 <p className="mt-4 text-white">
                   I was part of their Software development team as an Intern. My
-                  main task was to integrate different Ai models and their API's
-                  in their systems in order to increase productivity of the
-                  customers{" "}
+                  main task was to integrate different Ai models and their
+                  API&#39;s in their systems in order to increase productivity
+                  of the customers{" "}
                 </p>
               </div>
             </div>

@@ -17,6 +17,7 @@ import Cape from "./image/Cape.svg";
 import Microlab from "./image/Microlab.svg";
 import TypeScript from "./image/typeScript.svg";
 import MongoDB from "./image/mongoDB.svg";
+import Mqtt from "./image/mqtt.svg";
 
 export default function Home() {
   return (
@@ -65,6 +66,7 @@ export default function Home() {
               <Image src={Vue} alt="" width={50} />{" "}
               <Image src={TypeScript} alt="" width={50} />{" "}
               <Image src={MongoDB} alt="" width={50} />{" "}
+              <Image src={Mqtt} alt="" width={50} />{" "}
             </div>
           </section>
 

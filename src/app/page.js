@@ -35,11 +35,11 @@ export default function Home() {
 
           <section id="about" className="my-10 ">
             <p className="max-w-5xl text-white">
-              I&apos;am a 24-year-old Software Engineer currently pursuing a
-              Bachelor&apos;s degree in ICT at Fontys University of Applied
+              I&#39;m a 24-year-old Software Engineer currently pursuing a
+              Bachelor&#39;s degree in ICT at Fontys University of Applied
               Sciences in Eindhoven. I specialize in developing web and mobile
-              applications&apos; with a keen focus on UX Design. As an ambitious
-              Software Engineer. I&apos;am passionate about building rapid and
+              applications with a keen focus on UX Design. As an ambitious
+              Software Engineer, I&#39;m passionate about building rapid and
               scalable products that combine robust functionality with a strong
               design sensibility.
             </p>

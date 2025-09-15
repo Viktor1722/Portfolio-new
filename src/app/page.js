@@ -18,6 +18,7 @@ import Microlab from "./image/Microlab.svg";
 import TypeScript from "./image/typeScript.svg";
 import MongoDB from "./image/mongoDB.svg";
 import Mqtt from "./image/mqtt.svg";
+import owow from "./image/owow.png";
 
 export default function Home() {
   return (
@@ -358,6 +359,34 @@ export default function Home() {
                   </div>
                 </div>
               </a>
+
+              <a href="https://github.com/Viktor1722/Pdf-storage">
+                <div className="flex flex-row w-80 rounded-lg px-4 py-2 border border-slate-500 items-center justify-evenly">
+                  <div className="mr-10">
+                    <span className="text-white">PDF storage</span>
+                    <p className="text-sm mt-2 text-slate-300">
+                      Web Development project
+                    </p>
+                  </div>
+                  <div className="border border-slate-500 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-4 w-4"
+                    >
+                      <path
+                        className="text-white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
             </div>
           </section>
 
@@ -370,20 +399,19 @@ export default function Home() {
             </h2>
 
             <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
-              <Image src={Cape} alt="" width={90} />{" "}
+              <Image src={owow} alt="" width={90} />{" "}
               <div className="pl-5">
                 <h3 class="text-x font-semibold text-white">
-                  Fullstack Developer
+                  Software Developer - Intern
                 </h3>
                 <p className="text-sm text-slate-300">
-                  September 23 - February 24
+                  September 08 2025- Present
                 </p>
 
                 <p className="mt-4 text-white">
-                  I was part of their Software development team as an Intern. My
-                  main task was to integrate different Ai models and their
-                  API&#39;s in their systems in order to increase productivity
-                  of the customers{" "}
+                  I am part of their Software development team as an Intern. My
+                  project revolves around researching and developing AI agents
+                  for clients which want to automate their business processes.{" "}
                 </p>
               </div>
             </div>
@@ -394,12 +422,33 @@ export default function Home() {
                 <h3 class="text-x font-semibold text-white">
                   Software Developer
                 </h3>
-                <p className="text-sm text-slate-300">August 1st - Present</p>
+                <p className="text-sm text-slate-300">
+                  August 1st 2024 - 31st July 2025
+                </p>
 
                 <p className="mt-4 text-white">
-                  I am working on a software solutions that simplify the working
-                  process and practices for managing and maintaining large
-                  office buildings{" "}
+                  I was working on a software solutions that simplify the
+                  working process and practices for managing and maintaining
+                  large office buildings.{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-4	mt-5 p-5 border border-slate-500 rounded-lg">
+              <Image src={Cape} alt="" width={90} />{" "}
+              <div className="pl-5">
+                <h3 class="text-x font-semibold text-white">
+                  Fullstack Developer - Intern
+                </h3>
+                <p className="text-sm text-slate-300">
+                  September 23 2023 - February 24 2024
+                </p>
+
+                <p className="mt-4 text-white">
+                  I was part of their Software development team as an Intern. My
+                  main task was to integrate different Ai models and their
+                  API&#39;s in their systems in order to increase productivity
+                  of the customers.{" "}
                 </p>
               </div>
             </div>
